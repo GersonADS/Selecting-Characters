@@ -75,7 +75,7 @@ h2 {
     color: var(--cor-padrao);
     font-family: 'command',sans-serif;
     position: absolute;
-    bottom: 0px;
+    bottom: 0;
     width: 100%;
     font-size: 27px;
 }
@@ -159,8 +159,9 @@ img{
 
 .selecao-de-personagens
 .lista-de-personagens
-.personagem .tag{
-    /* display: none; */
+.personagem 
+.tag{
+    display: none;
     font-family: 'Times New Roman', Times , serif;
     top: 5px;
     position: absolute;
@@ -173,7 +174,8 @@ img{
 
 .selecao-de-personagens 
 .lista-de-personagens 
-.personagem.selecionado .tag{
+.personagem.selecionado
+.tag{
     display: block;
     animation: text-glowing-blue .3s ease-in-out infinite;
     animation-direction: alternate;
