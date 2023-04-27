@@ -29,7 +29,7 @@ personagens.forEach((personagem) => {
 
     const imagemJogador1 = document.querySelector('#personagem-jogador-1');
   
-    imagemJogador1.src = `../imagens/${idSelecionado}.png`;
+    imagemJogador1.src = `../../assets/imagens/${idSelecionado}.png`;
    
     const nomeJogador1 = document.querySelector('#nome-jogador-1');
 
